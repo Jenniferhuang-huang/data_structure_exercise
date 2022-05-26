@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>We will delete object properties with the delete keyword.</p>
+
+<p id="demo"></p>
+
+<script>
+var person = {
+  firstname: "West",
+  lastname: "Cliff",
+  age: 80,
+  eyecolor: "blue"
+};
+
+// add document code here
+delete person.age;
+document.getElementById("demo").innerHTML = person.firstname + " is " + person.age + " years old.";
+
+
+</script>
+
+</body>
+</html>
+
+const letters = 'abcde';
+
+const lettersArray = letters.split('');
+
+console.log(lettersArray);
+
+const str = 'Spring Break! Are you ready? Will be out of town. Looking forward to spending time on the beach.'
+const result = str.split(/[,.?!]/)
+result
+
